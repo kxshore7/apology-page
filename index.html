@@ -3,55 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Apology</title>
+  <title>Personal Apology Page</title>
+
   <style>
-    /* Page styling section */
+    /* === General Page Setup === */
     body {
-      font-family: Arial, sans-serif; /* Clean readable font */
-      text-align: center;             /* Center all text */
-      padding: 50px;                  /* Space around content */
-      background-color: #fff8f8;      /* Soft background color */
+      font-family: Arial, sans-serif;     /* Clean readable font */
+      background-color: #0f1117;          /* Dark background */
+      color: #000;
+      display: flex;                      /* Center content horizontally and vertically */
+      justify-content: center;
+      align-items: center;
+      height: 100vh;                      /* Full height of the screen */
+      margin: 0;
     }
 
+    /* === Main Apology Container === */
+    .apology {
+      background-color: #fff5f5;          /* Soft pink background for a warm tone */
+      padding: 60px 80px;                 /* Increased padding for a bigger box */
+      border-radius: 20px;                /* Rounded corners */
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+      max-width: 800px;                   /* Wider box */
+      text-align: center;
+    }
+
+    /* === Title and Text Styling === */
     h1 {
-      color: #ff5c5c;                 /* Title color - warm red */
+      color: #ff4d6d;
+      font-size: 2.8em;                   /* Bigger main heading */
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 1.6em;
+      color: #333;
+      margin-bottom: 20px;
     }
 
     p {
-      font-size: 1.2em;               /* Slightly larger font for easier reading */
-      line-height: 1.6;               /* Improve readability */
+      font-size: 1.3em;                   /* Larger readable text */
+      line-height: 1.8;                   /* Better spacing */
+      color: #333;
     }
 
-    .apology {
-      background-color: #f7f7f7;      /* Card background */
-      padding: 25px;                  /* Inner spacing */
-      border-radius: 15px;            /* Smooth rounded corners */
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
-      margin-bottom: 25px;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
+    /* === Emoji Section === */
     .emoji {
-      font-size: 2em;
-      margin-top: 10px;
+      font-size: 2.5em;                   /* Larger emoji for visual balance */
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
 
-  <!-- Main apology box -->
+  <!-- Main Apology Box -->
   <div class="apology">
-    <h1>Hi Roshni 💓</h1> <!-- Greeting line -->
-    <h3>Sorry...</h3> <!-- Opening apology -->
+    <h1>Hi Roshni </h1>
+    <h3>Sorry...</h3>
     <p>
-      I know I made a mistake and I deeply regret it.  
-      You mean so much to me, and I truly didn’t intend to hurt you.  
+      I know I made a mistake and I deeply regret it.<br>
+      You mean so much to me, and I truly didn’t intend to hurt you.<br>
       Please forgive me — I’ll make sure it never happens again. 💖
     </p>
 
     <p>Forgive me 🤌</p>
 </body>
 </html>
+
 
